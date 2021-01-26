@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Garage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>My Car Garage</h1>
+    </header>
+    <section>
+        <div class="form-container">
+            <form action="" id="carForm">
+                <label for="carName">Car Name</label><br>
+                <input type="text" id="carName" name="carName"><br>
+                <label for="categoryModel">Category Model</label><br>
+                <select name="categoryModel" id="categoryModel">
+                    <option value="BMW">BMW</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="KIA">KIA</option>
+                 </select><br>
+                <label for="modelYear">Model Year</label><br>
+                <select name="modelYear" id="modelYear">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                 </select>
+                 <br>
+                 <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="list-container">
+            <table id="display-item">
+
+            </table>
+            <button id="clearTable" type="submit">Clear Table</button>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
